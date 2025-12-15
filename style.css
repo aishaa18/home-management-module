@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #ffffff;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    color: #1e3d59;
+    font-size: 32px;
+}
+
+nav a {
+    margin-left: 18px;
+    text-decoration: none;
+    color: #1e3d59;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #f5b700;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f7f9fc;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #1e3d59;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 12px 26px;
+    background: #1e3d59;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #163047;
+}
+
+/* SECTION COMMON */
+section {
+    padding: 70px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    color: #1e3d59;
+    margin-bottom: 50px;
+}
+
+/* VISION & MISSION */
+.vision-mission {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.vision-mission div {
+    background: #ffffff;
+    padding: 35px;
+    width: 48%;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.vision-mission h3 {
+    font-size: 24px;
+    color: #1e3d59;
+    margin-bottom: 12px;
+}
+
+/* STATISTICS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: #1e3d59;
+    color: white;
+    border-radius: 14px;
+    padding: 40px 0;
+    margin: 0 8%;
+}
+
+.stats h3 {
+    font-size: 38px;
+    color: #f5b700;
+}
+
+.stats p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* INITIATIVES */
+.initiatives {
+    text-align: center;
+}
+
+.initiative-box {
+    display: inline-block;
+    background: #ffffff;
+    padding: 22px;
+    margin: 15px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.initiative-box:hover {
+    transform: translateY(-10px);
+    background: #e8f2ff;
+}
+
+/* FOOTER */
+footer {
+    background: #1e3d59;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 70px;
+}
